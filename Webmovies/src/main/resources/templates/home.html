@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thimeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		Home
+		<ul>
+			<li th:each="movie:${movieList}">
+			<b th:text=${movie.title}>Movie List</b>
+			<p th:text=${movie.author}>Movie List</p></li>
+		</ul>
+	</div>
+	CIAOOOO
+</body>
+</html>
