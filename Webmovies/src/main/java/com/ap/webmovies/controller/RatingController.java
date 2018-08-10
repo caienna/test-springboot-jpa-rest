@@ -18,7 +18,7 @@ import com.sun.enterprise.module.common_impl.DirectoryBasedRepository;
 public class RatingController {
 	
 	
-	@Autowired
+	
 	private RatingRepository ratingRepository;
 	
 	@GetMapping(value="/all")

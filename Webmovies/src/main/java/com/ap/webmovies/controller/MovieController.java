@@ -16,12 +16,12 @@ import com.ap.webmovies.repository.MovieRepository;
 
 	
 	@RestController
-	@RequestMapping("/movie")
+	@RequestMapping("api/movie")
 	public class MovieController {
 		
 		
 		
-		@Autowired
+		
 		private MovieRepository movieRepository;
 		
 		@GetMapping(value="/all")

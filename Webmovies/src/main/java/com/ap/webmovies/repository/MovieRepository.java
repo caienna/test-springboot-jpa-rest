@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import com.ap.webmovies.model.Movie;
 
 @NoRepositoryBean
-public interface MovieRepository extends JpaRepository<Movie, Integer> {
+public interface MovieRepository extends CrudRepository<Movie, Integer> {
 	
 	
 	Movie findByDirectorName(String name);

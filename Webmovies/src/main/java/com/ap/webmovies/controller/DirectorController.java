@@ -17,7 +17,7 @@ public class DirectorController {
 	
 	
 	
-	@Autowired
+	
 	private DirectorRepository directorRepository;
 	
 	@GetMapping(value="/all")
